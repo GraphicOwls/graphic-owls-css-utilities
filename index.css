@@ -1,18 +1,13 @@
 /** @format */
 
+::root {
+	--accent-color: #2c4bff;
+}
+
 * {
 	box-sizing: border-box;
 }
 
 ::marker {
-	color: red;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: purple;
+	color: var(--accent-color);
 }
